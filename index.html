@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Código google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet"> 
+    <title>Portfólio (CV pessoal)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho e menu do site -->
+    <header>
+        <h1 class="logo">
+            <img src="Imagens/logo nova.png" alt="logo do site">
+        </h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formação">Formação</a></li>
+                <li><a href="#Portfólio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Primeira sessão do site -->
+        <section class="topo-site">
+                <article class="flex">
+                    <article class="lado-esquerdo-site">
+                        <h2 class="titulo_principal">Matheus Santos <span>Soluções Tecnológicas</span></h2>
+                        
+                        <p>Conheça as diversas experiências que tive ao explorar o mundo da programação. Aqui, você encontrará uma visão geral dos desafios e aprendizados que enfrentei em minha jornada inicial. Desde práticas em ambientes de desenvolvimento até a implementação de conceitos em projetos pequenos, cada experiência contribui para meu crescimento como programador.</p>
+
+                        <p>Descubra as habilidades e tecnologias que estou adquirindo e desenvolvendo. Através de cursos e prática constante, estou construindo uma base sólida em linguagens como Python, JavaScript e HTML/CSS, entre outras. Veja como estou aplicando esses conhecimentos em projetos reais e desenvolvendo minhas competências técnicas.</p>
+
+                        <p>Descubra os objetivos e áreas de interesse que estou explorando. Estou sempre buscando novas oportunidades para expandir meus conhecimentos e me desafiar em novas áreas da programação. Veja quais são meus próximos passos e como planejo continuar crescendo e aprendendo no campo da tecnologia.</p>
+                    </article>
+
+                    
+                    <article class="exibicao">
+                        <img src="Imagens/Designer.jpeg" alt="menino estudando programação, com blusa do flamengo" width="350px">
+                    </article>
+
+                </article>
+        </section>
+
+        <!--Sessão sobre mim-->
+        <section class id="sobre-mim">
+            <article class="flex">
+                <article class="texto-sobremim">
+                <h2 class="titulo">Sobre mim</h2>
+                <p>
+                Sou Matheus Lucas, tenho 21 anos, natural de Brasília DF. Sou uma pessoa apaixonada por Tecnologia, o que me leva a explorar a área de <i>Programação.</i> Adoro jogar video-game e praticar esportes e sempre busco aprender algo novo, seja através de leitura ou simplesmente prática, que é oque mais gosto.</p>
+
+                <p>Estou sempre em busca de novos desafios que me permitam crescer como programador e expandir minhas habilidades. Atualmente, estou interessado em Python, Front-End, Inteligência Artificial, Desenvolvimento de Aplicativos Móveis e Banco de Dados.</p>
+
+                <p>Minha meta é contribuir para projetos inovadores, liderar equipes de desenvolvimento, ou se especializar em uma nova área. Estou comprometido com o aprendizado contínuo e com a aplicação das melhores práticas para resolver problemas complexos.</p>
+                </article> 
+            </article>
+        </section>
+
+
+        <!--Sessão formação-->
+        <section class id="formação">
+            <h2 class="titulo">Formação</h2>
+            <article class="flex">
+                
+                <article class="formacao-box">
+                    <img src="Imagens/icone-cartola.png" alt="icone de cartola">
+                    <h3>Faculdade</h3>
+                        <p>Cursando faculdade de Bacharelado em <br>Administração</p>
+                </article>
+
+                <article class="formacao-box">
+                    <img src="Imagens/icone-eletricidade.png" alt="icone de raio">
+                    <h3>Cursos</h3>
+                        <p>Curso de Eletricidade Básica pelo Senar</p>
+                </article>
+
+                <article class="formacao-box">
+                    <img src="Imagens/icone-cartola.png" alt="icone de cartola">
+                    <h3>Faculdade</h3>
+                        <p>Cursando faculdade de <br>Análise e desenvolvimento de sistemas</p>
+                </article>
+            </article>
+        </section>
+        <!--Fim da seção formação-->
+
+        <!--Seção Portfólio-->
+        <section class id ="portfolio">
+            <h2 class="titulo">Portfólio</h2>
+            <article class="flex">
+                <div class="imagem-portfolio1" style="background-image: url(Imagens/Primeirosite.PNG);">
+                    
+                    <p>Meu primeiro projeto, <span>Feito com Wordpress.</span></p>
+                </div>
+            </article>
+        </section>
+        <!--Fim da Seção portfolio-->
+
+
+        <!--Sessão contato-->
+        <section class id="contato">
+            <h2 class="titulo">Contato</h2>
+
+            <form method="post" action="formulario.teste">
+
+                <input type="text" name="nome" placeholder="Digite seu nome"> <br><br>
+                <input type="email" name="email" placeholder="Digite seu email">
+                <br><br>
+                
+                <textarea name="msg" rows="10" cols="50" placeholder="Digite sua mensagem" ></textarea>
+                <br><br>
+                
+                <div class="btn-enviar"><input type="submit" value="Enviar" placeholder="enviar"></div>
+            
+            </form>
+            
+        </section>
+        <!--Fim da sessão contato-->
+
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <article class="linha-rodape">
+            <article class="logo">
+                <img src="Imagens/logo nova.png" alt="logo do site">
+                <p>Site feito com HTML e CSS puro <span>Todos os direitos reservados</span></p>
+            </article>
+
+            <article class="botao">
+                <a href="index.html"><button>Retornar ao inicio</button></a>
+            </article>
+        </article>
+
+    </footer>
+    
+</body>
+</html>

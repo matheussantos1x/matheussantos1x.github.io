@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    margin: 0 auto;
+    
+}
+
+/* Estilo do menu do site */
+
+.flex{
+    display: flex;
+}
+
+.titulo{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os itens da lista em linha */
+}
+
+.menu li {
+    margin: 0 30px; /* Espaçamento horizontal entre os itens do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 22px; /* Tamanho da fonte dos links */
+    background-color: #0000FF;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+}
+
+.menu ul li a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0000ff;
+}
+
+
+/* ESTILO DO TOPO DO SITE */
+.titulo_principal{
+    font-size: 50px;
+}
+
+.titulo_principal span{
+    color: #0000FF;
+    display: block; /* Para deixar o texto do span na linha de baixo */
+}
+
+section.topo-site{
+    padding: 40px 4%;
+}
+
+.topo-site .flex{
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-site p{
+    color: #fff;
+    margin: 40px 0;
+    text-align: justify;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.exibicao img{
+    position: relative;
+    width: 480px;
+    height: 500px; 
+}
+
+/* Estilo da seção Sobre Mim */
+
+.texto-sobremim p{
+    text-align: justify;
+    transition: 1s;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    max-width: 800px;
+    min-width: 200px;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    
+}
+
+.texto-sobremim:hover{
+    transform: matrix(1.05);
+    box-shadow: 0 0 20px #0000FF;
+}
+
+
+/* ESTILO DA SEÇÃO FORMAÇÃO */
+
+.formação{
+    padding: 40px 4%;
+    text-align: center;
+}
+
+.formacao .flex{
+    gap: 50px;
+}
+
+.formacao-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: 1s;
+    padding-top: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+.formacao-box:hover{
+    transform: matrix(1.05); 
+    box-shadow: 0 0 20px #0000FF; /*  Fazer efeito de sombra  */
+}
+
+.formacao-box h3{
+    font-size: 35px;
+}
+
+.formacao-box p{
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+/* ESTILO DA SEÇÃO PORTFÓLIO */
+
+.portfolio{
+    padding: 40px 4%;
+    border-radius: 20px;
+}
+
+.portfolio:hover{
+    box-shadow: 0 0 20px #0000FF;
+}
+
+.imagem-portfolio1 p{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.imagem-portfolio1 p span{
+    color: #0000FF;
+    display: block;
+}
+
+.imagem-portfolio1{
+    width: 360px;
+    height: 460px;
+    background-color: #0000FF;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: 10s;
+}
+
+.imagem-portfolio1:hover{ 
+    background-position: 100% 100%;
+}
+
+/* Estilo da Seção Contato */
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+form:hover{
+    box-shadow: 0 0 20px #0000FF;
+}
+
+form input{
+    padding: 20px 15px;
+    border: 0;
+    background-color: #0000ff11;
+    font-size: 22px;
+    width: 50%;
+}
+
+form input::placeholder{
+    color: #0000FF;
+}
+
+form textarea{
+    padding: 20px 15px;
+    border: 0;
+    background-color: #0000ff11;
+    font-size: 22px;
+    resize: none;
+    max-height: 200px;
+    width: 50%;
+}
+
+form textarea::placeholder{
+    color: #0000FF;
+}
+
+form .btn-enviar input{
+    border-radius: 20px;
+    width: 120px;
+    background-color: #0000FF;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+form .btn-enviar input:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0000FF;
+}
+
+/* rodapé */
+
+footer{
+    padding: 40px 4%;
+    text-align: center;
+}
+
+.linha-rodape p{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.linha-rodape p span{
+    color: #0000FF;
+    display: block;
+}
+
+.botao{
+    text-align: end;
+}
+
+.botao button{
+    background-color: #0000FF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.botao button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0000ff;
+}
+
+/* Responsividade do site */
+
+@media screen and (max-width: 1020px){
+    
+    .titulo_principal{
+        text-align: center;
+    }
+
+    .flex{
+        flex-direction: column; /* Para os elementos ficarem um em baixo do outro  */
+    }
+
+
+    /* Cabeçalho do site */
+    .menu{
+        display: none;
+    }
+
+    /* Topo do site */
+
+    .topo-site .flex{
+        gap: 20px;
+    }
+    .topo-site p{
+        font-size: 20px;
+    }
+    
+    .formacao-box{
+        padding: 40px 8%;
+        
+    }
+
+    /* rodapé */
+
+    .botao{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .botao button{
+        font-size: 15px;
+        align-items: center;
+    }
+
+    
+}
